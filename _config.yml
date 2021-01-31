@@ -11,7 +11,5 @@ cdpath: "//cdn.w116.org/w116cd/"
 
 permalink: pretty
 
-baseurl: handbook
-
 gems:
   - jekyll-redirect-from
