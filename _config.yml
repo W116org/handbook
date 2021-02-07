@@ -9,7 +9,7 @@ cdn: "//cdn.w116.org"
 
 cdpath: "//handbook.w116.org"
 
-permalink: pretty
+permalink: /:path/:basename/
 
 gems:
   - jekyll-redirect-from
