@@ -1,16 +1,17 @@
 <footer>
 
-     {% include disclaimer.html %}
+{% include adsense.html %}
 
-     {% include adsense.html %}
+     <hr>
 
-     <div class="container small">
-
-          <hr>
-
-          <p class="small"><a href="mailto:&#105;&#110;&#102;&#111;&#64;&#119;&#49;&#49;&#54;&#46;&#111;&#114;&#103;">contact</a> | <a href="//www.w116.org/legal/">legal</a> &copy;&nbsp;w116.org</p>
-          <p class="timestamp small">This page last modified: {{ site.time | date_to_long_string }}</p>
-
+     <div class="row small">
+          <div class="col-xs-12 col-md-3">
+               <p class="small"><a href="mailto:&#105;&#110;&#102;&#111;&#64;&#119;&#49;&#49;&#54;&#46;&#111;&#114;&#103;">contact</a> | <a href="//www.w116.org/legal/">legal</a> &copy;&nbsp;w116.org</p>
+               <p class="timestamp small">This page last modified: {{ site.time | date_to_long_string }}</p>
+           </div>
+           <div class="col-xs-12 col-md-9">
+               {% include disclaimer.html %}
+          </div>
      </div>
 </footer>
 
