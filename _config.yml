@@ -11,5 +11,5 @@ cdpath: "//cdn.w116.org/cd"
 
 permalink: /:path/:basename/
 
-gems:
+plugins:
   - jekyll-redirect-from
