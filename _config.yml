@@ -8,7 +8,7 @@ site.baseurl: /
 
 cdn: "//cdn.w116.org"
 
-cdpath: "//handbook.w116.org/cd"
+cdpath: "//cd.w116.org/"
 
 permalink: /:path/:basename/
 
