@@ -10,6 +10,8 @@ cdn: "//cdn.w116.org"
 
 cdpath: "//handbook.w116.org"
 
+pop-img: "w116pop.svg"
+
 permalink: /:path/:basename/
 
 plugins:
